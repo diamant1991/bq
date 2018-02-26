@@ -518,7 +518,6 @@ div.social a{
     color: #d0d0d0;
 }
 div.social a:hover{
-    font-size: 100px;
     color: #414141;
     transition: all .25s;
 }
@@ -723,4 +722,124 @@ div.social a:hover{
   position: absolute;
   right: 10px;
   top: 5px;
+}
+.hamburger-box {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+  .hamburger-box.is-active .hamburger-inner {
+    -webkit-transform: translate3d(0, 10px, 0) rotate(45deg);
+       -moz-transform: translate3d(0, 10px, 0) rotate(45deg);
+            transform: translate3d(0, 10px, 0) rotate(45deg); }
+    .hamburger-box.is-active .hamburger-inner:before {
+      -webkit-transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+         -moz-transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+              transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+      opacity: 0; }
+    .hamburger-box.is-active .hamburger-inner:after {
+      -webkit-transform: translate3d(0, -20px, 0) rotate(-90deg);
+         -moz-transform: translate3d(0, -20px, 0) rotate(-90deg);
+              transform: translate3d(0, -20px, 0) rotate(-90deg); }
+
+.hamburger-inner {
+  top: 50%;
+  display: block;
+  margin-top: -2px;
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  -webkit-transition-timing-function: ease;
+     -moz-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .15s;
+     -moz-transition-duration: .15s;
+       -o-transition-duration: .15s;
+          transition-duration: .15s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: -o-transform;
+  -moz-transition-property: transform, -moz-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
+  top: 2px;
+  background-color: var(--red); }
+  .hamburger-inner:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    -webkit-transition-timing-function: ease;
+       -moz-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-duration: .15s;
+       -moz-transition-duration: .15s;
+         -o-transition-duration: .15s;
+            transition-duration: .15s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: -o-transform;
+    -moz-transition-property: transform, -moz-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
+    background-color: var(--red);
+    top: -10px;
+    top: 10px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    -webkit-transition-property: opacity,-webkit-transform;
+    transition-property: opacity,-webkit-transform;
+    -o-transition-property: opacity,-o-transform;
+    -moz-transition-property: transform,opacity,-moz-transform;
+    transition-property: transform,opacity;
+    transition-property: transform,opacity,-webkit-transform,-moz-transform,-o-transform; }
+  .hamburger-inner:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    -webkit-transition-timing-function: ease;
+       -moz-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-duration: .15s;
+       -moz-transition-duration: .15s;
+         -o-transition-duration: .15s;
+            transition-duration: .15s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: -o-transform;
+    -moz-transition-property: transform, -moz-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform, -moz-transform, -o-transform;
+    background-color: var(--red);
+    bottom: -10px;
+    top: 20px; }
+
+.mobile-panel{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: none;
+}
+.drop-menu{
+  display: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.drop-menu li{
+  margin: 5px 0;
+}
+.post-img{
+  height: 300px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }

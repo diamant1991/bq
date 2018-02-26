@@ -17,7 +17,7 @@
 <header>
     <div class="container-fluid">
         <div class="row">
-            <section class="top-nav d-flex pad">
+            <section class="top-nav d-flex pad hidden-md">
                 <div class="col-xl-6">
                     <ul class="list-unstyled d-flex social">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -36,11 +36,11 @@
                     </nav>
                 </div>
             </section>
-            <section class="header d-flex">
+            <section class="header d-flex hidden-md">
                 <div class="col-xl-12">
                     <nav>
                         <div class="nav-menu d-flex">
-                            <ul class="header list-unstyled d-flex">
+                            <ul class="header list-unstyled d-flex hidden-md">
                                 <a href="#" class="logo-item"><img src="img/logo.png" alt="logo"></a>
                                 <li>
                                     <section class="products">
@@ -60,22 +60,59 @@
                                 <li><a href="#">aurora</a></li>
                                 <li><a href="#">где купить</a></li>
                             </ul>
-                            <ul class="list-unstyled search d-flex justify-content-end">
+                            <ul class="list-unstyled search d-flex justify-content-end hidden-md">
                                 <form action="#" class="search-form d-flex">
                                     <input type="text" placeholder="Поиск по всем продуктам">
                                     <button type="submit" ><a href="#"><i class="ion-ios-search-strong"></i></a></button>
                                 </form>
                             </ul>
+
                         </div>
                     </nav>
                 </div>
             </section>
+            <section class="header visible-md row no-gutters align-items-center justify-content-between">
+              <a href="#" class="logo-item visible-md"><img src="img/logo.png" alt="logo"></a>
+              <div class="hamburger-box visible-md">
+                <div class="hamburger-inner"></div>
+              </div>
+            </section>
         </div>
-
     </div>
 </header>
+<div class="mobile-panel pad" id="mobile-panel">
+  <ul class="header list-unstyled">
+      <li>
+        <a href="#" class="toggle-button">Продукция <i class="ion-arrow-down-b"></i></a>
+        <ul class="drop-menu list-unstyled">
+            <li><a href="#">Product 1</a></li>
+            <li><a href="#">Product 2</a></li>
+            <li><a href="#">Product 3</a></li>
+            <li><a href="#">Product 4</a></li>
+            <li><a href="#">Product 5</a></li>
+        </ul>
+      </li>
+      <li><a href="#">интернет-магазин</a></li>
+      <li><a href="#">strike power</a></li>
+      <li><a href="#">aurora</a></li>
+      <li><a href="#">где купить</a></li>
+      <li><a href="#">Поддержка</a></li>
+      <li><a href="#">Пресс-центр</a></li>
+      <li><a href="#">О компании</a></li>
+  </ul>
+  <form action="#" class="search-form d-flex">
+    <input type="text" placeholder="Поиск по всем продуктам">
+    <button type="submit"><a href="#"><i class="ion-ios-search-strong"></i></a></button>
+  </form>
+  <ul class="list-unstyled d-flex social">
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+      <li><a href="#"><i class="fa fa-vk"></i></a></li>
+  </ul>
+</div>
 <section class="main-content">
-    <div class="container-fluid pad slider">
+    <div class="container-fluid pad slider hidden-xs">
       <div class="row no-gutters">
           <!--Слайдер заглушка-->
           <div class="main-slider">
@@ -114,7 +151,8 @@
                 <div class="special-offers d-flex">
                     <div class="post-thumb" style="margin-right: 20px;">
                         <a href="#">
-                            <img src="img/5500L-red_back.png" alt="">
+                            <img src="img/5500L-red_back.png" alt="" class="hidden-sm">
+                            <div class="post-img visible-sm" style="background-image: url(img/5500L-red_back.png)"></div>
                         </a>
                         <a href="#" class="post-thumb-overlay text-center row no-gutters align-items-center">
                             <div class="text-center">
@@ -125,10 +163,11 @@
                         </a>
                     </div>
                     <div class="justify-content-end">
-                        <div class="d-flex">
+                        <div class="d-flex sm-block">
                             <div class="post-thumb">
                                 <a href="#">
-                                <img src="img/bq_space-x.jpg" alt="">
+                                  <img class="hidden-sm" src="img/bq_space-x.jpg" alt="">
+                                  <div class="post-img visible-sm" style="background-image: url(img/bq_space-x.jpg)"></div>
                                 </a>
                                 <a href="#" class="post-thumb-overlay text-left row no-gutters align-items-center">
                                     <div class="" style="padding-left: 50px;">
@@ -141,7 +180,8 @@
                             </div>
                             <div class="post-thumb" style="margin-left: 30px;">
                                     <a href="#">
-                                        <img src="img/bq_selfie-max.jpg" alt="">
+                                        <img class="hidden-sm" src="img/bq_selfie-max.jpg" alt="">
+                                        <div class="post-img visible-sm" style="background-image: url(img/bq_selfie-max.jpg)"></div>
                                     </a>
                                     <a href="#" class="post-thumb-overlay text-left row no-gutters align-items-center">
                                         <div class="" style="padding-left: 50px;">
@@ -154,7 +194,8 @@
                         </div>
                         <div class="post-thumb" style="margin-top: 25px;">
                             <a href="#">
-                                <img src="img/BQ-P006-1_Foto_630x475.jpg" alt="">
+                                <img class="hidden-sm" src="img/BQ-P006-1_Foto_630x475.jpg" alt="">
+                                <div class="post-img visible-sm" style="background-image: url(img/BQ-P006-1_Foto_630x475.jpg)"></div>
                             </a>
                             <a href="#" class="post-thumb-overlay text-right row no-gutters align-items-center">
                                 <div class="clearfix">
@@ -171,7 +212,7 @@
             </div>
             <div class="catalog d-flex">
                     <div class="row">
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 hidden-xs">
                         <div class="day-offer">
                           <div class="day-offer__header">
                             <h3 class="item-title"><b>Предложение</b> дня</h3>
@@ -312,56 +353,56 @@
                 </div>
                 <div class="partners-name">
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/m-video-logo.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/dns-logo.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/svyaznoy-logo.png" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/euro-net.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/mts-logo.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/megafon-logo.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/biline-logo.jpg" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-3 col-sm-4 col-6">
                             <div class="partner">
                                 <a href="#">
                                     <img src="img/asulmart.jpg" alt="">
@@ -372,7 +413,7 @@
                 </div>
                 </div>
     </div>
-    <div class="container-fluid oficial">
+    <div class="container-fluid oficial hidden-sm">
         <div class="col-xl-12">
             <div class="d-flex">
                 <h1>Официальный партнер <strong>ФК "СПАРТАК МОСКВА"</strong></h1>
@@ -443,7 +484,7 @@
 <footer>
     <div class="container-fluid pad">  
       <div class="row">
-          <div class="col-xl-3">
+          <div class="col-lg-3">
               <div class="contacts">
                   <div class="title">
                       BQ
@@ -458,7 +499,7 @@
 
               </div>
           </div>
-          <div class="col-xl-3">
+          <div class="col-lg-3">
               <div class="about">
                   <div class="title">
                       О компании
@@ -469,7 +510,7 @@
                   <div class="link"><a href="#">Благотворительность</a></div>
               </div>
           </div>
-          <div class="col-xl-3">
+          <div class="col-lg-3">
               <div class="support">
                   <div class="title">
                       О компании
@@ -480,7 +521,7 @@
                   <div class="link"><a href="#">Руководства пользователя</a></div>
               </div>
           </div>
-          <div class="col-xl-3">
+          <div class="col-lg-3">
               <div class="social d-flex justify-content-end">
                   <div><a href="#"><i class="fa fa-facebook"></i></a></div>
                   <div><a href="#"><i class="fa fa-twitter"></i></a></div>
@@ -492,7 +533,7 @@
     </div>
     <div class="container-fluid pad footer-bottom">
       <div class="row no-gutters justify-content-between bottom align-items-center">
-        <div>&nbsp;</div>
+        <div class="hidden-xs">&nbsp;</div>
         <div class="copy">&copy; BQ , 2018 Все права защищены</div>
         <div class="subscribe-form">
           <form action="">
