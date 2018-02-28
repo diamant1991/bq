@@ -843,3 +843,274 @@ div.social a:hover{
   background-position: 50%;
   background-repeat: no-repeat;
 }
+/*Company*/
+section.main div.page-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+section.main div.page-content{
+    background: #ffffff;
+    padding: 0 120px;
+}
+section.main div.page-content b{
+    font-weight: 700;
+}
+section.main div.title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 35px 0;
+}
+section.main div.title strong{
+    font-weight: 700;
+}
+section.main div.content{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+}
+div.how-it-make{
+    margin: 50px 0;
+}
+div.how-it-make img{
+    width: 100%;
+}
+.adv_title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.adv_content{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.for-partners{
+    margin-bottom: 50px;
+}
+div.for-partners > div.title{
+    text-transform: none;
+}
+.for-partners .contacts a{
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+div.load-more{
+    padding: 50px 0;
+}
+.load-more .more:hover {
+    background-color: #ee0012;
+    transition: all .5s;
+}
+.more a{
+    color: #ee0012;
+}
+.more:hover a{
+    color: #fff;
+    transition: all .5s;
+}
+.news-image{
+    padding: 0 30px;
+}
+.news-image img{
+    max-width: 100%;
+    height: auto;
+}
+.news-content{
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #111111;
+  padding: 30px 30px 0 30px;
+}
+.news-content p{
+    text-align: left;
+}
+.news-content img{
+  max-width: 100%;
+  height: auto;
+}
+
+.tab-menu{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110px;
+}
+.tab-menu a{
+
+    color: #888888;
+}
+.tab-menu a:hover{
+    color: #ee0012;
+    transition: all .5s;
+}
+.catalog-top{
+    /*height: 970px;*/
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.catalog-promo{
+    background: #ee0012;
+}
+.catalog-promo:hover{
+    transition: all .5s;
+    box-shadow: 0 0 30px rgba(16,16,16,0.8);
+}
+.promo-img img{
+    max-height: 970px;
+    margin-bottom: 35px;
+}
+.catalog-promo .title{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    padding: 50px 0 35px 0;
+}
+.offer{
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+}
+span.new-price{
+    color: #ffffff;
+    padding-right: 20px;
+}
+span.old-priice{
+    font-family: "Segoe UI",sans-serif;
+    text-decoration: line-through;
+    color: #cccccc;
+}
+.model{
+    text-transform: uppercase;
+    color: #cccccc;
+    padding-bottom: 50px;
+}
+.catalog-top__product{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.catalog-top__product:hover{
+    transition: all .5s;
+    box-shadow: 0 0 25px rgba(16,16,16,0.8);
+}
+.catalog-top__prew img{
+    max-height: 345px;
+}
+.discount{
+    position: absolute;
+    top: 16%;
+    right: 12%;
+    width: 220px;
+    height: 220px;
+    border: 1px solid #c2da22;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #c2da22;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 54px;
+}
+.discount strong{
+    font-weight: 700;
+    font-size: 54px;
+}
+.discount p{
+    padding-top: 25%;
+}
+.other-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 120px;
+    padding-bottom: 90px;
+    border-bottom: solid 2px #eeeeee;
+}
+.other-products{
+    margin-top: 80px;
+    padding-bottom: 120px;
+
+}
+.other-products__prew{
+    max-width: 100%;
+    background: #f5f5f5;
+    position: relative;
+}
+.like, .compare{
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #eeeeee;
+    padding: 8px;
+    position: absolute;
+}
+.like a, .compare a{
+    color: #000;
+}
+.like{
+    top: 5px;
+}
+.compare{
+    top: 55px;
+}
+.on-hover > .more{
+    border: none;
+    position: absolute;
+    top: 220px;
+}
+.on-hover{
+
+    display: none;
+}
+.other-products__item:hover .on-hover{
+    display: block;
+}
+.other-products__item:hover{
+    transition: all .3s;
+    border: solid 2px #ee0012;
+    border-radius: 5px;
+}
+.other-products__item:hover .price-value{
+  display: none;
+}
+.other-products__item:hover .more-btn{
+  display: inline-block;
+}
+.other-products__item:hover > a > .price{
+    display: none;
+}
+.more-btn{
+  display: none;
+}
+.other-products__item{
+    padding: 5px;
+    border: 2px solid transparent;
+}
+.tab-link{
+  display: inline-block;
+}
+.tab-link + .tab-link{
+  margin-left: 20px;
+}
+.label-item{
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 0;
+}

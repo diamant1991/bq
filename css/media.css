@@ -17,6 +17,33 @@
 	.catalog{
 		margin-bottom: 0;
 	}
+	section.main div.page-content{
+		padding: 20px 50px;
+	}
+	section.main div.title{
+		font-size: 24px;
+		margin: 20px 0;
+	}
+	.news-content{
+		font-size: 20px;
+		line-height: 1.4;
+	}
+	section.main div.content{
+		font-size: 20px;
+	}
+	section.main div.page-title{
+		font-size: 24px;
+	}
+	.for-partners .contacts a{
+		font-size: 24px;
+	}
+	.adv_content{
+		font-size: 20px;
+	}
+	.adv_title{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
 	ul.header > li{
 		font-size: 16px;
 	}
@@ -202,6 +229,29 @@
 	.social > div + div{
 		margin-left: 20px;
 	}
+	section.main div.page-content{
+		padding: 20px 30px;
+	}
+	section.main div.title{
+		font-size: 20px;
+		margin: 10px 0;
+	}
+	section.main div.content{
+		font-size: 18px;
+	}
+	section.main div.page-title{
+		font-size: 20px;
+	}
+	.for-partners .contacts a{
+		font-size: 20px;
+	}
+	.adv_content{
+		font-size: 18px;
+	}
+	.adv_title{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
 	section.header{
 		line-height: 1;
 		height: 80px;
@@ -254,6 +304,19 @@
 @media(max-width: 991px){
 	footer div.social{
 		line-height: 1;
+	}
+	.news-title{
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	div.load-more{
+		padding-top: 0;
+	}
+	.news-content{
+		padding-top: 0;
+		padding-bottom: 0;
+		font-size: 18px;
 	}
 	.catalog{
 		margin-top: 30px;
@@ -331,6 +394,9 @@
 		width: 100%;
 		text-align: center;
 	}
+	.news-content{
+		font-size: 16px;
+	}
 	.subscribe-form form{
 		display: inline-block;
 		position: relative;
@@ -338,6 +404,37 @@
 	.pad, section.header{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	section.main div.page-content{
+		padding: 15px;
+	}
+	section.main div.title{
+		font-size: 16px;
+	}
+	section.main div.page-title{
+		margin: 15px 0;
+	}
+	footer{
+		padding-top: 0;
+	}
+	.adv_content{
+		margin-bottom: 30px;
+	}
+	section.main div.content{
+		font-size: 14px;
+	}
+	section.main div.page-title{
+		font-size: 16px;
+	}
+	.for-partners .contacts a{
+		font-size: 16px;
+	}
+	.adv_content{
+		font-size: 14px;
+	}
+	.adv_title{
+		font-size: 16px;
+		margin-bottom: 10px;
 	}
 	.catalog-categories{
 		display: block !important;
@@ -356,6 +453,10 @@
 	}
 	h1{
 		font-size: 24px;
+	}
+	.news-content{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 }
 @media(max-width: 575px){
@@ -422,5 +523,8 @@
 	}
 	.catalog-categories{
 		font-size: 16px;
+	}
+	h1{
+		font-size: 20px;
 	}
 }
