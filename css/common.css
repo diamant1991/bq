@@ -946,7 +946,7 @@ div.load-more{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 24px;
-    line-height: 110px;
+    line-height: 1.5;
 }
 .tab-menu a{
 
@@ -1043,7 +1043,7 @@ span.old-priice{
 }
 .other-products{
     margin-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 
 }
 .other-products__prew{
@@ -1101,6 +1101,7 @@ span.old-priice{
 .other-products__item{
     padding: 5px;
     border: 2px solid transparent;
+    margin-bottom: 20px;
 }
 .tab-link{
   display: inline-block;

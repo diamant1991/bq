@@ -17,12 +17,37 @@
 	.catalog{
 		margin-bottom: 0;
 	}
+	.promo-img img{
+		max-height: 400px;
+	}
 	section.main div.page-content{
 		padding: 20px 50px;
+	}
+	img{
+		max-width: 100%;
+		height: auto;
 	}
 	section.main div.title{
 		font-size: 24px;
 		margin: 20px 0;
+	}
+	.catalog-top__prew img{
+		max-height: 220px;
+	}
+	.offer{
+		font-size: 30px;
+	}
+	.catalog-promo .title{
+		padding: 10px 0;
+	}
+	.discount strong{
+		font-size: 34px;
+	}
+	.discount{
+		width: 150px;
+		height: 150px;
+		font-size: 24px;
+		line-height: 40px;
 	}
 	.news-content{
 		font-size: 20px;
@@ -226,6 +251,18 @@
 	div.social a{
 		padding-left: 0;
 	}
+	.tab-menu{
+		font-size: 20px;
+	}
+	.other-title{
+		margin-top: 50px;
+		font-size: 30px;
+		padding-bottom: 30px;
+	}
+	.other-products{
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
 	.social > div + div{
 		margin-left: 20px;
 	}
@@ -390,6 +427,25 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.section-header > div{
+		width: 100%;
+		text-align: center;
+	}
+	.other-title{
+		font-size: 24px;
+	}
+	.tab-menu{
+		font-size: 18px;
+	}
+	.tab-link + .tab-link{
+		margin-left: 0;
+	}
+	.tab-link{
+		margin: 5px 10px;
+	}
+	.offer{
+		font-size: 24px;
+	}
 	.bottom > div{
 		width: 100%;
 		text-align: center;
@@ -526,5 +582,27 @@
 	}
 	h1{
 		font-size: 20px;
+	}
+	.promo-img img{
+		max-height: 250px;
+	}
+	.discount{
+		width: 100px;
+		height: 100px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.discount strong{
+		font-size: 24px;
+	}
+	.other-title{
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	.offer{
+		font-size: 20px;
+	}
+	.tab-menu{
+		font-size: 16px;
 	}
 }
